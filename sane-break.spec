@@ -1,6 +1,6 @@
 Name:           sane-break
 Version:        0.8.4
-Release:        %autorelease
+Release:        2
 Summary:        A gentle break reminder that helps you avoid mindlessly skipping breaks
 License:        GPL-3.0-or-later
 URL:            https://github.com/AllanChain/sane-break
@@ -11,6 +11,7 @@ BuildRequires:  qt6-qtmultimedia-devel
 BuildRequires:  qt6-qtwayland-devel
 BuildRequires:  qt6-qttools-devel
 BuildRequires:  layer-shell-qt-devel
+BuildRequires:  qt6-linguist
 BuildRequires:  wayland
 BuildRequires:  desktop-file-utils
 BuildRequires:  cmake
