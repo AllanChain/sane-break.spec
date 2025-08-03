@@ -12,7 +12,7 @@ BuildRequires:  qt6-qtwayland-devel
 BuildRequires:  qt6-qttools-devel
 BuildRequires:  layer-shell-qt-devel
 BuildRequires:  qt6-linguist
-BuildRequires:  wayland
+BuildRequires:  wayland-devel
 BuildRequires:  desktop-file-utils
 BuildRequires:  cmake
 BuildRequires:  g++
