@@ -2,7 +2,6 @@ Name:           sane-break
 Version:        0.8.4
 Release:        %autorelease
 Summary:        A gentle break reminder that helps you avoid mindlessly skipping breaks
-
 License:        GPL-3.0-or-later
 URL:            https://github.com/AllanChain/sane-break
 Source0:        https://github.com/AllanChain/%{name}/archive/refs/tags/v%{version}.tar.gz
@@ -31,7 +30,6 @@ Recommends:     layer-shell-qt
 cmake .
 cmake --build . --parallel
 
-
 %install
 cmake --install . --prefix=%{buildroot}/%{_prefix}
 desktop-file-install                                    \
@@ -41,7 +39,6 @@ desktop-file-install                                    \
 
 %check
 desktop-file-validate %{buildroot}/%{_datadir}/applications/io.github.AllanChain.sane-break.desktop
-
 
 %files
 %{_bindir}/sane-break
