@@ -13,11 +13,13 @@ BuildRequires:  qt6-qttools-devel
 BuildRequires:  layer-shell-qt-devel
 BuildRequires:  qt6-linguist
 BuildRequires:  wayland-devel
+BuildRequires:  libXScrnSaver-devel
 BuildRequires:  desktop-file-utils
 BuildRequires:  cmake
 BuildRequires:  g++
 Requires:       qt6-qtbase
 Requires:       qt6-qtmultimedia
+Recommends:     libXScrnSaver
 Recommends:     qt6-qtwayland
 Recommends:     layer-shell-qt
 
