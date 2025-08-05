@@ -1,6 +1,6 @@
 Name:           sane-break
-Version:        0.8.4
-Release:        2
+Version:        0.9.0
+Release:        1
 Summary:        A gentle break reminder that helps you avoid mindlessly skipping breaks
 License:        GPL-3.0-or-later
 URL:            https://github.com/AllanChain/sane-break
@@ -43,6 +43,11 @@ desktop-file-validate %{buildroot}/%{_datadir}/applications/io.github.AllanChain
 
 %files
 %{_bindir}/sane-break
+%{_libdir}/sane-break/libsanebreak_idle_x11.so
+%{_libdir}/sane-break/libsanebreak_idle_wayland.so
+%{_libdir}/sane-break/libsanebreak_idle_gnome.so
+%{_libdir}/sane-break/libsanebreak_wayland_check.so
+%{_libdir}/sane-break/libsanebreak_layer_shell.so
 %{_datadir}/icons/hicolor/scalable/apps/io.github.AllanChain.sane-break.svg
 %{_datadir}/applications/io.github.AllanChain.sane-break.desktop
 %{_datadir}/metainfo/io.github.AllanChain.sane-break.metainfo.xml
