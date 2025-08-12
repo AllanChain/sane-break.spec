@@ -1,10 +1,11 @@
 Name:           sane-break
 Version:        0.9.1
-Release:        1
+Release:        2
 Summary:        A gentle break reminder that helps you avoid mindlessly skipping breaks
 License:        GPL-3.0-or-later
 URL:            https://github.com/AllanChain/sane-break
 Source0:        https://github.com/AllanChain/%{name}/archive/refs/tags/v%{version}.tar.gz
+Patch0:         libpath.patch
 
 BuildRequires:  qt6-qtbase-devel
 BuildRequires:  qt6-qtmultimedia-devel
@@ -27,7 +28,7 @@ Recommends:     layer-shell-qt
 %{summary}
 
 %prep
-%autosetup
+%autosetup -p1
 
 %build
 cmake .
