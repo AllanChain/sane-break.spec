@@ -1,5 +1,5 @@
 Name:           sane-break
-Version:        0.9.4
+Version:        0.9.5
 Release:        1
 Summary:        A gentle break reminder that helps you avoid mindlessly skipping breaks
 License:        GPL-3.0-or-later
