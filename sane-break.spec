@@ -1,5 +1,5 @@
 Name:           sane-break
-Version:        0.10.0
+Version:        0.10.1
 Release:        1
 Summary:        A gentle break reminder that helps you avoid mindlessly skipping breaks
 License:        GPL-3.0-or-later
@@ -15,6 +15,7 @@ BuildRequires:  qt6-linguist
 BuildRequires:  wayland-devel
 BuildRequires:  libXScrnSaver-devel
 BuildRequires:  desktop-file-utils
+BuildRequires:  cli11-devel
 BuildRequires:  cmake
 BuildRequires:  g++
 Requires:       qt6-qtbase
